@@ -2320,7 +2320,6 @@
       "Microsoft.EntityFrameworkCore >= 9.0.2",
       "PlantControlPanel.Application.Abstractions >= 1.0.0",
       "PlantControlPanel.Application.Contracts >= 1.0.0",
-      "PlantControlPanel.Domain >= 1.0.0",
       "SourceKit.Generators.Builder.Annotations >= 1.1.52"
     ]
   },
@@ -2354,9 +2353,6 @@
             },
             "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Contracts/PlantControlPanel.Application.Contracts.csproj": {
               "projectPath": "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Contracts/PlantControlPanel.Application.Contracts.csproj"
-            },
-            "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Domain/PlantControlPanel.Domain.csproj": {
-              "projectPath": "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Domain/PlantControlPanel.Domain.csproj"
             }
           }
         }

@@ -1,0 +1,80 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "PlantControlPanel.Application.Contracts/1.0.0": {
+        "dependencies": {
+          "SourceKit.Generators.Builder.Annotations": "1.1.52"
+        },
+        "runtime": {
+          "PlantControlPanel.Application.Contracts.dll": {}
+        }
+      },
+      "SourceKit/1.1.52": {},
+      "SourceKit.Analyzers.MustBePartial/1.1.52": {
+        "dependencies": {
+          "SourceKit": "1.1.52",
+          "SourceKit.Analyzers.MustBePartial.Annotations": "1.1.52"
+        }
+      },
+      "SourceKit.Analyzers.MustBePartial.Annotations/1.1.52": {
+        "runtime": {
+          "lib/netstandard2.0/SourceKit.Analyzers.MustBePartial.Annotations.dll": {
+            "assemblyVersion": "1.1.52.0",
+            "fileVersion": "1.1.52.0"
+          }
+        }
+      },
+      "SourceKit.Generators.Builder.Annotations/1.1.52": {
+        "dependencies": {
+          "SourceKit.Analyzers.MustBePartial": "1.1.52"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SourceKit.Generators.Builder.Annotations.dll": {
+            "assemblyVersion": "1.1.52.0",
+            "fileVersion": "1.1.52.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PlantControlPanel.Application.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SourceKit/1.1.52": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2wbqjIEKAcK1zxNzu3Ywx04zEK5/5XFh1ZV/NqaCK0kusRHVXFc3H3rrMD82PcHiGjgsSpSszhk6dkfSNGbcRw==",
+      "path": "sourcekit/1.1.52",
+      "hashPath": "sourcekit.1.1.52.nupkg.sha512"
+    },
+    "SourceKit.Analyzers.MustBePartial/1.1.52": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1nCNIBgbZnSkfdPQAfjHegW84AB7x0XW1iLPfFWFU5S9N3p5egvKtcxUzVUGj0vhf1vE+NTuVWcY9JbjLpzFYw==",
+      "path": "sourcekit.analyzers.mustbepartial/1.1.52",
+      "hashPath": "sourcekit.analyzers.mustbepartial.1.1.52.nupkg.sha512"
+    },
+    "SourceKit.Analyzers.MustBePartial.Annotations/1.1.52": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ulIm0++cEKWws0f4TbKwdisnX0OzXx3npQ2VkeyONKPLdPmzUr3oPCsBoxtNpfwOlqyIuC6oLf7ZONM8fiGpMg==",
+      "path": "sourcekit.analyzers.mustbepartial.annotations/1.1.52",
+      "hashPath": "sourcekit.analyzers.mustbepartial.annotations.1.1.52.nupkg.sha512"
+    },
+    "SourceKit.Generators.Builder.Annotations/1.1.52": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1q/mIpEL8ZM67vucCyMkat/5FZG8g8Ky9UNqr+0OKifAw3cFee/gTNCG1yxXuVhSruTkWFs/cGGFyNbi7qtmxg==",
+      "path": "sourcekit.generators.builder.annotations/1.1.52",
+      "hashPath": "sourcekit.generators.builder.annotations.1.1.52.nupkg.sha512"
+    }
+  }
+}

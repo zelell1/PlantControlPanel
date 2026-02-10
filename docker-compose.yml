@@ -1,33 +1,31 @@
 services:
   db:
     image: postgres:17
-    container_name: warehouse_postgres
     environment:
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=password
-      - POSTGRES_DB=warehouse_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: warehouse_db
     ports:
       - "5432:5432"
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
-    healthcheck: 
+    healthcheck:
       test: ["CMD-SHELL", "pg_isready -U postgres -d warehouse_db"]
       interval: 5s
       timeout: 5s
       retries: 5
 
   web-api:
-    image: warehouse-api
     build:
       context: .
       dockerfile: src/PlantControlPanel.Web/Dockerfile
+    image: warehouse-api
     ports:
-      - "5000:8080"
+      - "5001:8080"
     environment:
-      - ConnectionStrings__DefaultConnection=Host=db;Port=5432;Database=warehouse_db;Username=postgres;Password=password
-    depends_on:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__DefaultConnection: "Host=db;Port=5432;Database=warehouse_db;Username=postgres;Password=password"
+    depends_on: 
       db:
-        condition: service_healthy 
+        condition: service_healthy
 
 volumes:
   postgres_data:

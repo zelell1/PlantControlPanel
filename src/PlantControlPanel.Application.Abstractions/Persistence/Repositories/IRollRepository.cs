@@ -1,6 +1,3 @@
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
 using PlantControlPanel.Application.Abstractions.Persistence.Queries;
 using PlantControlPanel.Domain;
 

@@ -1,4 +1,3 @@
-using System;
 using PlantControlPanel.Application.Contracts.RollService.Models;
 
 namespace PlantControlPanel.Application.Contracts.RollService.Operations;

@@ -1,8 +1,4 @@
-using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using PlantControlPanel.Application;
 using PlantControlPanel.Infrastructure.Persistence.Context;
 using Presentation;

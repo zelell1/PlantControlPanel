@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlantControlPanel.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72095dfbb5f998652fb35042c2cc836d28134575")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlantControlPanel.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlantControlPanel.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

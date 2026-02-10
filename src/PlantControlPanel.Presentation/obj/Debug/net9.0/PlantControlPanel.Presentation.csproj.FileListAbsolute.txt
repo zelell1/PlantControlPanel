@@ -10,6 +10,7 @@
 /Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Presentation/obj/Debug/net9.0/PlantControlPanel.Presentation.AssemblyInfoInputs.cache
 /Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Presentation/obj/Debug/net9.0/PlantControlPanel.Presentation.AssemblyInfo.cs
 /Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Presentation/obj/Debug/net9.0/PlantControlPanel.Presentation.csproj.CoreCompileInputs.cache
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Presentation/obj/Debug/net9.0/PlantControlPanel.Presentation.sourcelink.json
 /Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Presentation/obj/Debug/net9.0/rjimswa.dswa.cache.json
 /Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Presentation/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
 /Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Presentation/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json

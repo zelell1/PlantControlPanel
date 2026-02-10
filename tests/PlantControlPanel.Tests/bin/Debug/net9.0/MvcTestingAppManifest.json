@@ -1,0 +1,9 @@
+{
+  "PlantControlPanel.Application.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/daniillazimov\/RiderProjects\/WebApplication1\/src\/PlantControlPanel.Application.Abstractions",
+  "PlantControlPanel.Application.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/daniillazimov\/RiderProjects\/WebApplication1\/src\/PlantControlPanel.Application.Contracts",
+  "PlantControlPanel.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/daniillazimov\/RiderProjects\/WebApplication1\/src\/PlantControlPanel.Application",
+  "PlantControlPanel.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/daniillazimov\/RiderProjects\/WebApplication1\/src\/PlantControlPanel.Domain",
+  "PlantControlPanel.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/daniillazimov\/RiderProjects\/WebApplication1\/src\/PlantControlPanel.Infrastructure",
+  "PlantControlPanel.Presentation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/daniillazimov\/RiderProjects\/WebApplication1\/src\/PlantControlPanel.Presentation",
+  "PlantControlPanel.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/daniillazimov\/RiderProjects\/WebApplication1\/src\/PlantControlPanel.Web"
+}

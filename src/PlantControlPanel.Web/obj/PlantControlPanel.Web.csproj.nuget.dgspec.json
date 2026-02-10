@@ -169,9 +169,6 @@
               },
               "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Contracts/PlantControlPanel.Application.Contracts.csproj": {
                 "projectPath": "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Contracts/PlantControlPanel.Application.Contracts.csproj"
-              },
-              "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Domain/PlantControlPanel.Domain.csproj": {
-                "projectPath": "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Domain/PlantControlPanel.Domain.csproj"
               }
             }
           }
@@ -324,11 +321,43 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.CodeAnalysis.CSharp": {
+              "target": "Package",
+              "version": "[4.9.2, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp.Workspaces": {
+              "target": "Package",
+              "version": "[4.9.2, )"
+            },
             "Microsoft.CodeAnalysis.Common": {
               "target": "Package",
               "version": "[4.9.2, )"
             },
+            "Microsoft.CodeAnalysis.Workspaces.Common": {
+              "target": "Package",
+              "version": "[4.9.2, )"
+            },
+            "Microsoft.CodeAnalysis.Workspaces.MSBuild": {
+              "target": "Package",
+              "version": "[4.9.2, )"
+            },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.2, )"
             },
@@ -451,6 +480,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Contracts/PlantControlPanel.Application.Contracts.csproj": {
+                "projectPath": "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Contracts/PlantControlPanel.Application.Contracts.csproj"
+              },
               "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application/PlantControlPanel.Application.csproj": {
                 "projectPath": "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application/PlantControlPanel.Application.csproj"
               },
@@ -479,11 +511,21 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "Microsoft.CodeAnalysis.Common": {
-              "target": "Package",
-              "version": "[4.9.2, )"
-            },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[9.0.2, )"
             },

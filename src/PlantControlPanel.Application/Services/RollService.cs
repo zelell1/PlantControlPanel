@@ -1,8 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
 using PlantControlPanel.Application.Abstractions.Persistence;
 using PlantControlPanel.Application.Abstractions.Persistence.Queries;
 using PlantControlPanel.Application.Contracts.RollService;
@@ -94,18 +89,17 @@ public class RollService : IRollService
     {
         try
         { 
-            request = new GetStatistics.Request(
-                request.StartDate ?? DateTime.MinValue, 
-                request.EndDate ?? DateTime.MaxValue);
+            var startDate = request.StartDate ?? DateTime.MinValue;
+            var endDate = request.EndDate ?? DateTime.MaxValue;
             
-            if (request is { StartDate: not null, EndDate: not null } && request.StartDate > request.EndDate)
+            if (startDate > endDate)
             {
                 return new GetStatistics.Response.BadRequest("Start date cannot be later than End date.");
             }
             
             var rolls = await _context.RollRepository.Query(RollQuery.Build(x => x))
-                .Where(x => x.AddTime <= request.EndDate && 
-                           (x.RemoveTime == null || x.RemoveTime >= request.StartDate))
+                .Where(x => x.AddTime <= endDate && 
+                           (x.RemoveTime == null || x.RemoveTime >= startDate))
                 .ToListAsync(ct);
             
             if (rolls.Count == 0)
@@ -117,9 +111,9 @@ public class RollService : IRollService
                         null, null, null));
             }
             
-            var addedCount = rolls.Count(x => x.AddTime >= request.StartDate && x.AddTime <= request.EndDate);
-            var removedCount = rolls.Count(x => x.RemoveTime.HasValue && x.RemoveTime.Value >= request.StartDate 
-                                                                      && x.RemoveTime.Value <= request.EndDate);
+            var addedCount = rolls.Count(x => x.AddTime >= startDate && x.AddTime <= endDate);
+            var removedCount = rolls.Count(x => x.RemoveTime.HasValue && x.RemoveTime.Value >= startDate 
+                                                                      && x.RemoveTime.Value <= endDate);
 
             var avgLength = rolls.Average(x => x.Length);
             var avgWeight = rolls.Average(x => x.Weight);
@@ -138,9 +132,11 @@ public class RollService : IRollService
             TimeSpan? minDuration = durations.Any() ? durations.Min() : null;
             TimeSpan? maxDuration = durations.Any() ? durations.Max() : null;
 
-
+            if (endDate == DateTime.MaxValue)
+                endDate = DateTime.MaxValue.AddDays(-1);
+            
             var dailyStats = new List<(DateTime Date, int Count, double Weight)>();
-            for (var day = request.StartDate!.Value; day <= request.EndDate!.Value; day = day.AddDays(1))
+            for (var day = startDate; day <= endDate; day = day.AddDays(1))
             {
                 var onWarehouseThisDay = rolls.Where(x => 
                     x.AddTime.Date <= day && 

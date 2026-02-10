@@ -1,5 +1,3 @@
-using System;
-
 namespace PlantControlPanel.Domain;
 
 public class Roll(int id, double length, double weight, DateTime addTime)

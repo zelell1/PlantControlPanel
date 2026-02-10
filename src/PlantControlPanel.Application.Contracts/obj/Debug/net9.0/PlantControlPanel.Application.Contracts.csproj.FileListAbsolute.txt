@@ -6,6 +6,7 @@
 /Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Contracts/obj/Debug/net9.0/PlantControlPanel.Application.Contracts.AssemblyInfoInputs.cache
 /Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Contracts/obj/Debug/net9.0/PlantControlPanel.Application.Contracts.AssemblyInfo.cs
 /Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Contracts/obj/Debug/net9.0/PlantControlPanel.Application.Contracts.csproj.CoreCompileInputs.cache
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Contracts/obj/Debug/net9.0/PlantControlPanel.Application.Contracts.sourcelink.json
 /Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Contracts/obj/Debug/net9.0/PlantControlPanel.Application.Contracts.dll
 /Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Contracts/obj/Debug/net9.0/refint/PlantControlPanel.Application.Contracts.dll
 /Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Contracts/obj/Debug/net9.0/PlantControlPanel.Application.Contracts.pdb

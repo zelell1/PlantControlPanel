@@ -12,6 +12,7 @@
 /Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application/obj/Debug/net9.0/PlantControlPanel.Application.AssemblyInfoInputs.cache
 /Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application/obj/Debug/net9.0/PlantControlPanel.Application.AssemblyInfo.cs
 /Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application/obj/Debug/net9.0/PlantControlPanel.Application.csproj.CoreCompileInputs.cache
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application/obj/Debug/net9.0/PlantControlPanel.Application.sourcelink.json
 /Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application/obj/Debug/net9.0/PlantCon.09FB8ED7.Up2Date
 /Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application/obj/Debug/net9.0/PlantControlPanel.Application.dll
 /Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application/obj/Debug/net9.0/refint/PlantControlPanel.Application.dll

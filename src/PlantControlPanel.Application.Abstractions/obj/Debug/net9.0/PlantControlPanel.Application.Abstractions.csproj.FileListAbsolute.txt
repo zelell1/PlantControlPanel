@@ -8,6 +8,7 @@
 /Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Abstractions/obj/Debug/net9.0/PlantControlPanel.Application.Abstractions.AssemblyInfoInputs.cache
 /Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Abstractions/obj/Debug/net9.0/PlantControlPanel.Application.Abstractions.AssemblyInfo.cs
 /Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Abstractions/obj/Debug/net9.0/PlantControlPanel.Application.Abstractions.csproj.CoreCompileInputs.cache
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Abstractions/obj/Debug/net9.0/PlantControlPanel.Application.Abstractions.sourcelink.json
 /Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Abstractions/obj/Debug/net9.0/PlantCon.F1B1FCD7.Up2Date
 /Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Abstractions/obj/Debug/net9.0/PlantControlPanel.Application.Abstractions.dll
 /Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Abstractions/obj/Debug/net9.0/refint/PlantControlPanel.Application.Abstractions.dll

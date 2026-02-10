@@ -1,4 +1,3 @@
-using System;
 using SourceKit.Generators.Builder.Annotations;
 
 namespace PlantControlPanel.Application.Abstractions.Persistence.Queries;
