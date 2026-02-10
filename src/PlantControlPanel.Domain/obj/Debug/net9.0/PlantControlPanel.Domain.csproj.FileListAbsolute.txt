@@ -1,0 +1,11 @@
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Domain/bin/Debug/net9.0/PlantControlPanel.Domain.deps.json
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Domain/bin/Debug/net9.0/PlantControlPanel.Domain.dll
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Domain/bin/Debug/net9.0/PlantControlPanel.Domain.pdb
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Domain/obj/Debug/net9.0/PlantControlPanel.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Domain/obj/Debug/net9.0/PlantControlPanel.Domain.AssemblyInfoInputs.cache
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Domain/obj/Debug/net9.0/PlantControlPanel.Domain.AssemblyInfo.cs
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Domain/obj/Debug/net9.0/PlantControlPanel.Domain.csproj.CoreCompileInputs.cache
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Domain/obj/Debug/net9.0/PlantControlPanel.Domain.dll
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Domain/obj/Debug/net9.0/refint/PlantControlPanel.Domain.dll
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Domain/obj/Debug/net9.0/PlantControlPanel.Domain.pdb
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Domain/obj/Debug/net9.0/ref/PlantControlPanel.Domain.dll

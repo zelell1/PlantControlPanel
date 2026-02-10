@@ -1,0 +1,12 @@
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Contracts/bin/Debug/net9.0/PlantControlPanel.Application.Contracts.deps.json
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Contracts/bin/Debug/net9.0/PlantControlPanel.Application.Contracts.dll
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Contracts/bin/Debug/net9.0/PlantControlPanel.Application.Contracts.pdb
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Contracts/obj/Debug/net9.0/PlantControlPanel.Application.Contracts.csproj.AssemblyReference.cache
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Contracts/obj/Debug/net9.0/PlantControlPanel.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Contracts/obj/Debug/net9.0/PlantControlPanel.Application.Contracts.AssemblyInfoInputs.cache
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Contracts/obj/Debug/net9.0/PlantControlPanel.Application.Contracts.AssemblyInfo.cs
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Contracts/obj/Debug/net9.0/PlantControlPanel.Application.Contracts.csproj.CoreCompileInputs.cache
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Contracts/obj/Debug/net9.0/PlantControlPanel.Application.Contracts.dll
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Contracts/obj/Debug/net9.0/refint/PlantControlPanel.Application.Contracts.dll
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Contracts/obj/Debug/net9.0/PlantControlPanel.Application.Contracts.pdb
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Contracts/obj/Debug/net9.0/ref/PlantControlPanel.Application.Contracts.dll

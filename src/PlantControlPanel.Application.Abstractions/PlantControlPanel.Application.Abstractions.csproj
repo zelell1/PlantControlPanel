@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\PlantControlPanel.Domain\PlantControlPanel.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="SourceKit.Generators.Builder" Version="1.2.52" />
+      <PackageReference Include="SourceKit.Generators.Builder.Annotations" Version="1.1.52" />
+    </ItemGroup>
+
+</Project>

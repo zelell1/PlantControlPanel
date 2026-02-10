@@ -1,0 +1,17 @@
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Infrastructure/bin/Debug/net9.0/PlantControlPanel.Infrastructure.deps.json
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Infrastructure/bin/Debug/net9.0/PlantControlPanel.Infrastructure.dll
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Infrastructure/bin/Debug/net9.0/PlantControlPanel.Infrastructure.pdb
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Infrastructure/bin/Debug/net9.0/PlantControlPanel.Application.Abstractions.dll
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Infrastructure/bin/Debug/net9.0/PlantControlPanel.Domain.dll
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Infrastructure/bin/Debug/net9.0/PlantControlPanel.Application.Abstractions.pdb
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Infrastructure/bin/Debug/net9.0/PlantControlPanel.Domain.pdb
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Infrastructure/obj/Debug/net9.0/PlantControlPanel.Infrastructure.csproj.AssemblyReference.cache
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Infrastructure/obj/Debug/net9.0/PlantControlPanel.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Infrastructure/obj/Debug/net9.0/PlantControlPanel.Infrastructure.AssemblyInfoInputs.cache
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Infrastructure/obj/Debug/net9.0/PlantControlPanel.Infrastructure.AssemblyInfo.cs
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Infrastructure/obj/Debug/net9.0/PlantControlPanel.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Infrastructure/obj/Debug/net9.0/PlantCon.69E976A4.Up2Date
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Infrastructure/obj/Debug/net9.0/PlantControlPanel.Infrastructure.dll
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Infrastructure/obj/Debug/net9.0/refint/PlantControlPanel.Infrastructure.dll
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Infrastructure/obj/Debug/net9.0/PlantControlPanel.Infrastructure.pdb
+/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Infrastructure/obj/Debug/net9.0/ref/PlantControlPanel.Infrastructure.dll

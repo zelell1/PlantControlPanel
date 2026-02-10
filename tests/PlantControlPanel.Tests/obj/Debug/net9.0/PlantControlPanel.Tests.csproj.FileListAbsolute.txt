@@ -1,0 +1,11 @@
+/Users/daniillazimov/RiderProjects/WebApplication1/tests/PlantControlPanel.Tests/bin/Debug/net9.0/PlantControlPanel.Tests.deps.json
+/Users/daniillazimov/RiderProjects/WebApplication1/tests/PlantControlPanel.Tests/bin/Debug/net9.0/PlantControlPanel.Tests.dll
+/Users/daniillazimov/RiderProjects/WebApplication1/tests/PlantControlPanel.Tests/bin/Debug/net9.0/PlantControlPanel.Tests.pdb
+/Users/daniillazimov/RiderProjects/WebApplication1/tests/PlantControlPanel.Tests/obj/Debug/net9.0/PlantControlPanel.Tests.GeneratedMSBuildEditorConfig.editorconfig
+/Users/daniillazimov/RiderProjects/WebApplication1/tests/PlantControlPanel.Tests/obj/Debug/net9.0/PlantControlPanel.Tests.AssemblyInfoInputs.cache
+/Users/daniillazimov/RiderProjects/WebApplication1/tests/PlantControlPanel.Tests/obj/Debug/net9.0/PlantControlPanel.Tests.AssemblyInfo.cs
+/Users/daniillazimov/RiderProjects/WebApplication1/tests/PlantControlPanel.Tests/obj/Debug/net9.0/PlantControlPanel.Tests.csproj.CoreCompileInputs.cache
+/Users/daniillazimov/RiderProjects/WebApplication1/tests/PlantControlPanel.Tests/obj/Debug/net9.0/PlantControlPanel.Tests.dll
+/Users/daniillazimov/RiderProjects/WebApplication1/tests/PlantControlPanel.Tests/obj/Debug/net9.0/refint/PlantControlPanel.Tests.dll
+/Users/daniillazimov/RiderProjects/WebApplication1/tests/PlantControlPanel.Tests/obj/Debug/net9.0/PlantControlPanel.Tests.pdb
+/Users/daniillazimov/RiderProjects/WebApplication1/tests/PlantControlPanel.Tests/obj/Debug/net9.0/ref/PlantControlPanel.Tests.dll

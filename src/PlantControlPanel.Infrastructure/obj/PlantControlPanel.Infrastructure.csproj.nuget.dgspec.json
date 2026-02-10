@@ -1,0 +1,217 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Infrastructure/PlantControlPanel.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Abstractions/PlantControlPanel.Application.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Abstractions/PlantControlPanel.Application.Abstractions.csproj",
+        "projectName": "PlantControlPanel.Application.Abstractions",
+        "projectPath": "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Abstractions/PlantControlPanel.Application.Abstractions.csproj",
+        "packagesPath": "/Users/daniillazimov/.nuget/packages/",
+        "outputPath": "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Abstractions/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/daniillazimov/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Domain/PlantControlPanel.Domain.csproj": {
+                "projectPath": "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Domain/PlantControlPanel.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "SourceKit.Generators.Builder": {
+              "target": "Package",
+              "version": "[1.2.52, )"
+            },
+            "SourceKit.Generators.Builder.Annotations": {
+              "target": "Package",
+              "version": "[1.1.52, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Domain/PlantControlPanel.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Domain/PlantControlPanel.Domain.csproj",
+        "projectName": "PlantControlPanel.Domain",
+        "projectPath": "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Domain/PlantControlPanel.Domain.csproj",
+        "packagesPath": "/Users/daniillazimov/.nuget/packages/",
+        "outputPath": "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/daniillazimov/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Infrastructure/PlantControlPanel.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Infrastructure/PlantControlPanel.Infrastructure.csproj",
+        "projectName": "PlantControlPanel.Infrastructure",
+        "projectPath": "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Infrastructure/PlantControlPanel.Infrastructure.csproj",
+        "packagesPath": "/Users/daniillazimov/.nuget/packages/",
+        "outputPath": "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/daniillazimov/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Abstractions/PlantControlPanel.Application.Abstractions.csproj": {
+                "projectPath": "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Abstractions/PlantControlPanel.Application.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.Common": {
+              "target": "Package",
+              "version": "[4.9.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

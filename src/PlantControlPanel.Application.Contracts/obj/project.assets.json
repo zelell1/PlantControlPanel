@@ -1,0 +1,170 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "SourceKit/1.1.52": {
+        "type": "package"
+      },
+      "SourceKit.Analyzers.MustBePartial/1.1.52": {
+        "type": "package",
+        "dependencies": {
+          "SourceKit": "1.1.52",
+          "SourceKit.Analyzers.MustBePartial.Annotations": "1.1.52"
+        }
+      },
+      "SourceKit.Analyzers.MustBePartial.Annotations/1.1.52": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/SourceKit.Analyzers.MustBePartial.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SourceKit.Analyzers.MustBePartial.Annotations.dll": {}
+        }
+      },
+      "SourceKit.Generators.Builder.Annotations/1.1.52": {
+        "type": "package",
+        "dependencies": {
+          "SourceKit.Analyzers.MustBePartial": "1.1.52"
+        },
+        "compile": {
+          "lib/netstandard2.0/SourceKit.Generators.Builder.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SourceKit.Generators.Builder.Annotations.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SourceKit/1.1.52": {
+      "sha512": "2wbqjIEKAcK1zxNzu3Ywx04zEK5/5XFh1ZV/NqaCK0kusRHVXFc3H3rrMD82PcHiGjgsSpSszhk6dkfSNGbcRw==",
+      "type": "package",
+      "path": "sourcekit/1.1.52",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "analyzers/dotnet/cs/SourceKit.dll",
+        "sourcekit.1.1.52.nupkg.sha512",
+        "sourcekit.nuspec"
+      ]
+    },
+    "SourceKit.Analyzers.MustBePartial/1.1.52": {
+      "sha512": "1nCNIBgbZnSkfdPQAfjHegW84AB7x0XW1iLPfFWFU5S9N3p5egvKtcxUzVUGj0vhf1vE+NTuVWcY9JbjLpzFYw==",
+      "type": "package",
+      "path": "sourcekit.analyzers.mustbepartial/1.1.52",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "analyzers/dotnet/cs/SourceKit.Analyzers.MustBePartial.Annotations.dll",
+        "analyzers/dotnet/cs/SourceKit.Analyzers.MustBePartial.dll",
+        "sourcekit.analyzers.mustbepartial.1.1.52.nupkg.sha512",
+        "sourcekit.analyzers.mustbepartial.nuspec"
+      ]
+    },
+    "SourceKit.Analyzers.MustBePartial.Annotations/1.1.52": {
+      "sha512": "ulIm0++cEKWws0f4TbKwdisnX0OzXx3npQ2VkeyONKPLdPmzUr3oPCsBoxtNpfwOlqyIuC6oLf7ZONM8fiGpMg==",
+      "type": "package",
+      "path": "sourcekit.analyzers.mustbepartial.annotations/1.1.52",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/netstandard2.0/SourceKit.Analyzers.MustBePartial.Annotations.dll",
+        "sourcekit.analyzers.mustbepartial.annotations.1.1.52.nupkg.sha512",
+        "sourcekit.analyzers.mustbepartial.annotations.nuspec"
+      ]
+    },
+    "SourceKit.Generators.Builder.Annotations/1.1.52": {
+      "sha512": "1q/mIpEL8ZM67vucCyMkat/5FZG8g8Ky9UNqr+0OKifAw3cFee/gTNCG1yxXuVhSruTkWFs/cGGFyNbi7qtmxg==",
+      "type": "package",
+      "path": "sourcekit.generators.builder.annotations/1.1.52",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/netstandard2.0/SourceKit.Generators.Builder.Annotations.dll",
+        "sourcekit.generators.builder.annotations.1.1.52.nupkg.sha512",
+        "sourcekit.generators.builder.annotations.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "SourceKit.Generators.Builder.Annotations >= 1.1.52"
+    ]
+  },
+  "packageFolders": {
+    "/Users/daniillazimov/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Contracts/PlantControlPanel.Application.Contracts.csproj",
+      "projectName": "PlantControlPanel.Application.Contracts",
+      "projectPath": "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Contracts/PlantControlPanel.Application.Contracts.csproj",
+      "packagesPath": "/Users/daniillazimov/.nuget/packages/",
+      "outputPath": "/Users/daniillazimov/RiderProjects/WebApplication1/src/PlantControlPanel.Application.Contracts/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/daniillazimov/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "dependencies": {
+          "SourceKit.Generators.Builder.Annotations": {
+            "target": "Package",
+            "version": "[1.1.52, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

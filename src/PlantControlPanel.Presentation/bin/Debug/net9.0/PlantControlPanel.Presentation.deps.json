@@ -1,0 +1,186 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "PlantControlPanel.Presentation/1.0.0": {
+        "dependencies": {
+          "PlantControlPanel.Application.Contracts": "1.0.0",
+          "Swashbuckle.AspNetCore": "7.2.0"
+        },
+        "runtime": {
+          "PlantControlPanel.Presentation.dll": {}
+        }
+      },
+      "Microsoft.Extensions.ApiDescription.Server/6.0.5": {},
+      "Microsoft.OpenApi/1.6.22": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "assemblyVersion": "1.6.22.0",
+            "fileVersion": "1.6.22.0"
+          }
+        }
+      },
+      "SourceKit/1.1.52": {},
+      "SourceKit.Analyzers.MustBePartial/1.1.52": {
+        "dependencies": {
+          "SourceKit": "1.1.52",
+          "SourceKit.Analyzers.MustBePartial.Annotations": "1.1.52"
+        }
+      },
+      "SourceKit.Analyzers.MustBePartial.Annotations/1.1.52": {
+        "runtime": {
+          "lib/netstandard2.0/SourceKit.Analyzers.MustBePartial.Annotations.dll": {
+            "assemblyVersion": "1.1.52.0",
+            "fileVersion": "1.1.52.0"
+          }
+        }
+      },
+      "SourceKit.Generators.Builder.Annotations/1.1.52": {
+        "dependencies": {
+          "SourceKit.Analyzers.MustBePartial": "1.1.52"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SourceKit.Generators.Builder.Annotations.dll": {
+            "assemblyVersion": "1.1.52.0",
+            "fileVersion": "1.1.52.0"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore/7.2.0": {
+        "dependencies": {
+          "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
+          "Swashbuckle.AspNetCore.Swagger": "7.2.0",
+          "Swashbuckle.AspNetCore.SwaggerGen": "7.2.0",
+          "Swashbuckle.AspNetCore.SwaggerUI": "7.2.0"
+        }
+      },
+      "Swashbuckle.AspNetCore.Swagger/7.2.0": {
+        "dependencies": {
+          "Microsoft.OpenApi": "1.6.22"
+        },
+        "runtime": {
+          "lib/net9.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "assemblyVersion": "7.2.0.0",
+            "fileVersion": "7.2.0.956"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerGen/7.2.0": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Swagger": "7.2.0"
+        },
+        "runtime": {
+          "lib/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "assemblyVersion": "7.2.0.0",
+            "fileVersion": "7.2.0.956"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerUI/7.2.0": {
+        "runtime": {
+          "lib/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "assemblyVersion": "7.2.0.0",
+            "fileVersion": "7.2.0.956"
+          }
+        }
+      },
+      "PlantControlPanel.Application.Contracts/1.0.0": {
+        "dependencies": {
+          "SourceKit.Generators.Builder.Annotations": "1.1.52"
+        },
+        "runtime": {
+          "PlantControlPanel.Application.Contracts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PlantControlPanel.Presentation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ckb5EDBUNJdFWyajfXzUIMRkhf52fHZOQuuZg/oiu8y7zDCVwD0iHhew6MnThjHmevanpxL3f5ci2TtHQEN6bw==",
+      "path": "microsoft.extensions.apidescription.server/6.0.5",
+      "hashPath": "microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512"
+    },
+    "Microsoft.OpenApi/1.6.22": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aBvunmrdu/x+4CaA/UP1Jx4xWGwk4kymhoIRnn2Vp+zi5/KOPQJ9EkSXHRUr01WcGKtYl3Au7XfkPJbU1G2sjQ==",
+      "path": "microsoft.openapi/1.6.22",
+      "hashPath": "microsoft.openapi.1.6.22.nupkg.sha512"
+    },
+    "SourceKit/1.1.52": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2wbqjIEKAcK1zxNzu3Ywx04zEK5/5XFh1ZV/NqaCK0kusRHVXFc3H3rrMD82PcHiGjgsSpSszhk6dkfSNGbcRw==",
+      "path": "sourcekit/1.1.52",
+      "hashPath": "sourcekit.1.1.52.nupkg.sha512"
+    },
+    "SourceKit.Analyzers.MustBePartial/1.1.52": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1nCNIBgbZnSkfdPQAfjHegW84AB7x0XW1iLPfFWFU5S9N3p5egvKtcxUzVUGj0vhf1vE+NTuVWcY9JbjLpzFYw==",
+      "path": "sourcekit.analyzers.mustbepartial/1.1.52",
+      "hashPath": "sourcekit.analyzers.mustbepartial.1.1.52.nupkg.sha512"
+    },
+    "SourceKit.Analyzers.MustBePartial.Annotations/1.1.52": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ulIm0++cEKWws0f4TbKwdisnX0OzXx3npQ2VkeyONKPLdPmzUr3oPCsBoxtNpfwOlqyIuC6oLf7ZONM8fiGpMg==",
+      "path": "sourcekit.analyzers.mustbepartial.annotations/1.1.52",
+      "hashPath": "sourcekit.analyzers.mustbepartial.annotations.1.1.52.nupkg.sha512"
+    },
+    "SourceKit.Generators.Builder.Annotations/1.1.52": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1q/mIpEL8ZM67vucCyMkat/5FZG8g8Ky9UNqr+0OKifAw3cFee/gTNCG1yxXuVhSruTkWFs/cGGFyNbi7qtmxg==",
+      "path": "sourcekit.generators.builder.annotations/1.1.52",
+      "hashPath": "sourcekit.generators.builder.annotations.1.1.52.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore/7.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vJv19UpWm6OOgnS9QLDnWARNVasXUfj8SFvlG7UVALm4nBnfwRnEky7C0veSDqMUmBeMPC6Ec3d6G1ts/J04Uw==",
+      "path": "swashbuckle.aspnetcore/7.2.0",
+      "hashPath": "swashbuckle.aspnetcore.7.2.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.Swagger/7.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-y27fNDfIh1vGhJjXYynLcZjl7DLOW1bSO2MDsY9wB4Zm1fdxpPsuBSiR4U+0acWlAqLmnuOPKr/OeOgwRUkBlw==",
+      "path": "swashbuckle.aspnetcore.swagger/7.2.0",
+      "hashPath": "swashbuckle.aspnetcore.swagger.7.2.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerGen/7.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pMrTxGVuXM7t4wqft5CNNU8A0++Yw5kTLmYhB6tbEcyBfO8xEF/Y8pkJhO6BZ/2MYONrRYoQTfPFJqu8fOf5WQ==",
+      "path": "swashbuckle.aspnetcore.swaggergen/7.2.0",
+      "hashPath": "swashbuckle.aspnetcore.swaggergen.7.2.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/7.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hgrXeKzyp5OGN8qVvL7A+vhmU7mDJTfGpiMBRL66IcfLOyna8UTLtn3cC3CghamXpRDufcc9ciklTszUGEQK0w==",
+      "path": "swashbuckle.aspnetcore.swaggerui/7.2.0",
+      "hashPath": "swashbuckle.aspnetcore.swaggerui.7.2.0.nupkg.sha512"
+    },
+    "PlantControlPanel.Application.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
